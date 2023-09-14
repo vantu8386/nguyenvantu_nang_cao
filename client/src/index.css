@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h1_todolist {
+  text-align: center;
+  background-color: #33cc00;
+  color: aliceblue;
+  padding: 20px 0px;
+  margin: 40px 0px;
+}
+
+.inpur {
+  width: 40%;
+  margin: auto;
+  padding: 2%;
+}
+.outline-secondary {
+  height: 20px;
+}
+
+/* ---------------- */
+
+/* Định dạng phần modal body */
+.modal-body {
+  padding: 20px;
+}
+
+/* Định dạng input và select bên trong div */
+.modal-body div {
+  margin-bottom: 15px;
+}
+
+/* Định dạng input */
+.modal-body input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Định dạng select */
+.modal-body select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
